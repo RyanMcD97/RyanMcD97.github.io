@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Get in touch</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			
+				<div id="header">
+
+					<!--colour changes when hovering over header (Line 2438 in main.css) -->
+					<h1><a href="About Me.html" id="logo">Ryan McDonnell <em>Food Technology/TAS/ICT teacher</em></a></h1>
+
+
+					
+					<nav id="nav">
+						<ul>
+							<li><a href="About Me.html">About Me</a></li>
+							<li><a href="Teaching Philosophy.html">My Teaching Philosophy</a></li>
+							<li>
+								<a href="#">Fundamental skills/projects</a>
+								<ul>
+									<li><a href="https://www.youtube.com/watch?v=G-Fg7l7G1zw">Basic Knife Skills</a></li>
+									<li><a href="https://www.youtube.com/watch?v=fWjsdhR3z3c">Learn python</a></li>
+									<li>
+										<a href="#">Projects for the classroom</a>
+										<ul>
+											<li><a href="Food Product development.html">Food product development</a></li>
+											<li class="current"><a href="Rubber band racer.html">Rubber band racer</a></li>
+											<li><a href="Food Moulding.html">Food Moulding</a></li>
+											<li class="current"><a href="E-textiles banner.html">E-textiles banner</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="Get in touch.html">Get in touch</a></li>
+							<!--links to pages on the website above-->
+						</ul>
+					</nav>
+			</div>
+
+			
+			
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+							
+							<section class="col-6 col-12-narrower">
+								<!-- Changed button colour to yellow in main.css, multiple boxes for details, "Message
+							 successfully sent" message displayed when pressing send button, once "Send" button is pressed, 
+							 text fields are reset, button colour changes when hovering 
+						      over it, user can "hide" details by ticking the box" -->
+							  <h3>Get In Touch</h3>
+							  <p>If you have any queries regarding anything you read or saw on this webpage, please fill out the form below and I will aim to reply as soon as possible.</p>
+							  <div class="main-box">
+								  <form class="box1" id="contactForm">
+									  <h3>Please fill in your details</h3>
+									  <label> Name: </label>
+									  <input type="text" id="Name" name="Name">
+									  <br>
+									  <label> Email: </label>
+									  <input type="text" id="Email" name="Email">
+									  <br>
+									  <label> Phone number: </label>
+									  <input type="text" id="PhoneNumber" name="PhoneNumber">
+									  <br>
+									  <label> Message: </label>
+									  <input type="text" id="Message" name="Message">
+									  <br>
+									  <hr>
+									  <p>Please allow 2-3 business days for a response.</p>
+									  <input type="checkbox" id="check1" name="check1">
+									  <label> Only send one message; sending multiple will push your email to the bottom of the list.</label>
+									  <br>
+									  <button type="button" class="sub-button" onclick="handleFormSubmission()">Send</button>
+								  </form>
+								  <p id="successMessage" style="display:none; color: green;">Message successfully sent</p>
+							  </div>
+							  
+							  <script>
+							  function handleFormSubmission() {
+								  // Display success message
+								  document.getElementById('successMessage').style.display = 'block';
+								  
+								  // Reset form fields
+								  document.getElementById('Name').value = '';
+								  document.getElementById('Email').value = '';
+								  document.getElementById('PhoneNumber').value = '';
+								  document.getElementById('Message').value = '';
+								  document.getElementById('check1').checked = false;
+							  }
+							  </script>
+							  
+
+							  
+
+
+
+		
+
+		</div>
+
+		
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
