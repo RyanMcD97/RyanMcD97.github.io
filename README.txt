@@ -75,7 +75,7 @@ Step 4: Verify Your Upload
    - Go back to your GitHub repository in your web browser.
    - Refresh the page; you should see your HTML and CSS files listed.
 
-### Tips:
+Tips:
 
 - If you update your files in the future, repeat Steps 3.4 to 3.6 (add, commit, and push).
 - Consider using a `.gitignore` file to exclude unnecessary files or directories from being uploaded.
